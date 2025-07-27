@@ -18,6 +18,7 @@
 }
 body{
     width: 100vw;
+    margin: auto;
     background-size: contain;
     background-position:top;
     background-repeat:  no-repeat;    
@@ -147,14 +148,15 @@ strong{
     font-weight: 700;
     color: var(--Piedra_900);
 }
-@media (min-width: 375px){
+@media (max-width: 375px){
     body{
         .conteiner{
             margin: 0;
-            img{
-                padding: 0;
-                margin: 0;
-            }
+            padding: 0;
+        }
+        .x{
+            padding: 1em 2em;
+            margin-bottom: 0;
         }
     }
 }
